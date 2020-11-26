@@ -1,6 +1,7 @@
 body {
     background-color: rgb(214, 209, 202);
     margin: 1px;
+    background-image: url("/img/backgrund.jpg");
 }
 
 .gridWrapper {
@@ -22,7 +23,7 @@ body {
 
 .header {
     grid-area: he;
-    background-image: url("/img/backgrund.jpg");
+
     height: 30vh;
     display: inline; 
     padding: 50px;
