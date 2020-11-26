@@ -5,7 +5,7 @@ body {
 
 .gridWrapper {
     display:grid;
-    width: 200vh;
+    width: 181vh;
     height: 500vh;
     grid-template-areas:
     "he he he"
@@ -22,10 +22,13 @@ body {
 }
 
 .header {
-    background-color: blueviolet;
     grid-area: he;
-    height: 10vh;
-}
+    background-image: image(background);
+    display: inline; 
+    padding: 5px;
+    border: 1px solid blue; 
+    background-color: yellow; 
+  }
 
 .aside {
     grid-area: as;
