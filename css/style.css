@@ -14,7 +14,6 @@ body {
     "se se as"
     "fo fo fo"
     
-    
     ;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -23,11 +22,12 @@ body {
 
 .header {
     grid-area: he;
-    background-image: image(background);
+    background-image: url("/img/backgrund.jpg");
+    height: 30vh;
     display: inline; 
-    padding: 5px;
-    border: 1px solid blue; 
-    background-color: yellow; 
+    padding: 50px;
+    border: 10px solid rgb(87, 87, 133); 
+    background-color: rgb(121, 121, 59); 
   }
 
 .aside {
