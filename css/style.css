@@ -35,14 +35,22 @@ section#header {
     font-size: 100px;
   }
 
+.nummer3 {
+    font-style: italic;
+    color: white;
+    padding-right: 35vh;
+    font-size: 200px;
+}
+  
 .nummer1 {
     padding: 100px;
     color: white;
 }
 
 .loggo {
-    margin-right: 45vw;
+    padding-right: 5vh;
 }
+
 
 .aside {
     grid-area: as;
