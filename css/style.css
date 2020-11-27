@@ -43,13 +43,10 @@ section#header {
 }
 
 .loggo {
-    color: white;
+    background-color: tomato;
+    width: 100px;
+    
 }
-
-  img {
-    padding: 50px;
-    width: 550px;
-  }
 
 .aside {
     grid-area: as;
