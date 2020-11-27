@@ -43,15 +43,12 @@ section#header {
 }
 
 .loggo {
-    background-color: tomato;
-    width: 100px;
-    
+    margin-right: 45vw;
 }
 
 .aside {
     grid-area: as;
     background-color: burlywood;
-    position: relative;
 }
 
 .footer {
