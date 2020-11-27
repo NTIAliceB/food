@@ -1,7 +1,11 @@
 body {
     background-color: rgb(214, 209, 202);
-    margin: 1px;
+    margin: 0px;
     background-image: url("/img/backgrund.jpg");
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .gridWrapper {
@@ -21,19 +25,36 @@ body {
     grid-gap: 1px;
 }
 
-.header {
-    grid-area: he;
+section#header {
+    background-image: linear-gradient(to right,black, brown);
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 181vh;
+    height: 10vw;
+    font-size: 100px;
+  }
 
-    height: 30vh;
-    display: inline; 
+.nummer1 {
+    padding: 100px;
+    color: white;
+}
+
+.loggo {
+    color: white;
+}
+
+  img {
     padding: 50px;
-    border: 10px solid rgb(87, 87, 133); 
-    background-color: rgb(121, 121, 59); 
+    width: 550px;
   }
 
 .aside {
     grid-area: as;
     background-color: burlywood;
+    position: relative;
 }
 
 .footer {
