@@ -8,8 +8,7 @@ body {
 
 .gridWrapper {
     display:grid;
-    width: 181vh;
-    height: 10vh;
+    width: 100vw;
     grid-template-areas:
     "he he he"
     ;
@@ -25,7 +24,7 @@ section#header {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 181vh;
+    width: 100vw;
     height: 10vw;
     font-size: 50px;
     
@@ -50,40 +49,56 @@ section#header {
 }
 
 #wrapper {
-    display:flex;
+    display:grid;
+    grid-template-areas: 
+    'id1 id2 as'
+    'id3 id4 as'
+    'id5 id6 .'
+    'fo fo fo';
     background-color:white ;
-    width: 11vh;
-    height: 100vh;
     margin-top: 70vh;
+    width: 100vw;
   }
 
 .aside {
-    grid-area: as;
     background-color: burlywood;
+    grid-area: as;
 }
 
-.footer {
-    grid-area: fo;
+footer {
     background-color: chocolate;
+    grid-area: fo;
 }
-
-
-section#innerGridWrapper {
-
-    margin-top: 85vh;
-    width: 181vh;
-    height: 300vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
 
 .innerDiv {
     background-color: indigo;
     width: 50vh;
     height: 50vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
 }
 
+#innerdiv1{
+    grid-area: id1;
+}
+
+#innerdiv2{
+    grid-area: id2;
+}
+
+#innerdiv3{
+    grid-area: id3;
+}
+
+#innerdiv4{
+    grid-area: id4;
+}
+
+#innerdiv5{
+    grid-area: id5;
+}
+
+#innerdiv6{
+    grid-area: id6;
+}
