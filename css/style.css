@@ -9,17 +9,12 @@ body {
 .gridWrapper {
     display:grid;
     width: 181vh;
-    height: 500vh;
+    height: 10vh;
     grid-template-areas:
     "he he he"
-    "se se as"
-    "se se as"
-    "se se as"
-    "fo fo fo"
-    
     ;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-gap: 1px;
 }
 
@@ -33,6 +28,7 @@ section#header {
     width: 181vh;
     height: 10vw;
     font-size: 100px;
+    
   }
 
 .nummer3 {
@@ -51,6 +47,14 @@ section#header {
     padding-right: 5vh;
 }
 
+#wrapper {
+    display:flex;
+    height:181vh;
+    width: 181vh;
+    background-color:white ;
+    width: 181vh;
+    height: 300vh;
+  }
 
 .aside {
     grid-area: as;
@@ -62,16 +66,24 @@ section#header {
     background-color: chocolate;
 }
 
-.innerGridWrapper {
-    grid-area: se;
-    background-color: darkcyan;
-    grid-template-rows:3fr 1fr ;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 1x;
-    margin: 100px;
+
+section#innerGridWrapper {
+
+    margin-top: 85vh;
+    margin-right: 330vh;
+    width: 181vh;
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+
 
 .innerDiv {
     background-color: indigo;
+    width: 50vh;
+    height: 50vh;
 }
 
