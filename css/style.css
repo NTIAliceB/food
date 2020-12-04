@@ -34,18 +34,15 @@ section#header {
     font-style: italic;
     color: white;
     font-size: 100px;
-    margin-right: 25vh;
+   
 }
   
 .nummer1 {
-    padding: 100px;
     color: white;
 }
 
 .loggo {
-    padding-right: 5vh;
-    padding-bottom: 18vh;
-    height: 10px;
+   
 }
 
 #wrapper {
