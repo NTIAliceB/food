@@ -81,21 +81,24 @@ section#header {
     background-color: burlywood;
     grid-area: as;
     font-size: 50px;
+    margin-left: 300px;
+}
+
+a:hover {
+    color: rgb(255, 81, 0);
+  }
+a:link {
+    text-decoration: none;
+    background-color: white;
 }
 
 ul{
-    list-style-type: circle;
+    list-style-type: none;
     list-style-position: inside;
     margin: 10px;
-    font-family: sans-serif;
+    font-family: cursive;
     color: white;
 
-}
-
-footer {
-    background-color: chocolate;
-    grid-area: fo;
-    height: 15vh;
 }
 
 .innerDiv {
@@ -105,6 +108,11 @@ footer {
     margin-bottom: 2vh;
     margin-left: 2vh;
     margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
 }
 
 #innerdiv1{
@@ -129,4 +137,23 @@ footer {
 
 #innerdiv6{
     grid-area: id6;
+}
+
+
+footer {
+    background-color: chocolate;
+    grid-area: fo;
+    height: 20vh;
+}
+
+.footer1 {
+    background-color: rgb(241, 120, 34);
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
 }
