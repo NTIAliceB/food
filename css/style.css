@@ -1,20 +1,33 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+
+
+
+}
+
 body {
     background-color: rgb(214, 209, 202);
     margin: 0px;
     background-image: url("/img/backgrund.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 
 .gridWrapper {
-    display:grid;
     width: 100vw;
-    grid-template-areas:
+
+   /* display:grid;
+    /*grid-template-areas:
     "he he he"
     ;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1px;
+    grid-gap: 1px;*/
 }
 
 section#header {
@@ -25,23 +38,30 @@ section#header {
     justify-content: center;
     flex-direction: row;
     width: 100vw;
-    height: 10vw;
-    font-size: 50px;
+    height: 20vh;
+
     
   }
 
 .nummer3 {
     font-style: italic;
     color: white;
-    font-size: 100px;
+    font-size: 90px;
+    padding-right: 250px;
    
 }
   
 .nummer1 {
     color: white;
+    padding-right: 40px;
+    font-size: 30px;
 }
 
-.loggo {
+
+
+.loggo >img{
+    height: 15vh;
+    margin: 30px;
    
 }
 
@@ -53,22 +73,33 @@ section#header {
     'id5 id6 .'
     'fo fo fo';
     background-color:white ;
-    margin-top: 70vh;
+    margin-top: 75vh;
     width: 100vw;
   }
 
 .aside {
     background-color: burlywood;
     grid-area: as;
+    font-size: 50px;
+}
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 10px;
+    font-family: sans-serif;
+    color: white;
+
 }
 
 footer {
     background-color: chocolate;
     grid-area: fo;
+    height: 15vh;
 }
 
 .innerDiv {
-    background-color: indigo;
+    background-color: rgb(231, 220, 203);
     width: 50vh;
     height: 50vh;
     margin-bottom: 2vh;
