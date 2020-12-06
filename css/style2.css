@@ -61,23 +61,15 @@ section#header {
 #wrapper {
     display:grid;
     grid-template-areas: 
-    'id1 id2 as'
-    'id3 id4 as'
-    'id5 id6 .'
-    'fo fo fo';
+    'id1 id1 id1'
+    'id1 id1 id1'
+    'id1 id1 id1'
+    'id1 id1 id1';
     background-color:white ;
     margin-top: 75vh;
     width: 100vw;
   }
 
-.aside {
-    background-color: burlywood;
-    grid-area: as;
-    font-size: 50px;
-    margin-left: 300px;
-    padding: 10px;
-    margin-top: 10px;
-}
 
 a:hover {
     color: rgb(255, 81, 0);
@@ -86,15 +78,6 @@ a:hover {
 a{
     text-decoration: none;
     color: white;
-}
-
-ul{
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 10px;
-    font-family: cursive;
-    color: white;
-
 }
 
 .innerDiv {
@@ -115,25 +98,6 @@ ul{
     grid-area: id1;
 }
 
-#innerdiv2{
-    grid-area: id2;
-}
-
-#innerdiv3{
-    grid-area: id3;
-}
-
-#innerdiv4{
-    grid-area: id4;
-}
-
-#innerdiv5{
-    grid-area: id5;
-}
-
-#innerdiv6{
-    grid-area: id6;
-}
 
 
 footer {
