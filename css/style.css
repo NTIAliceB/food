@@ -81,7 +81,7 @@ section#header {
     background-color: burlywood;
     grid-area: as;
     font-size: 50px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 10px;
 }
 
@@ -157,7 +157,5 @@ footer {
     margin-bottom: 2vh;
     margin-left: 3vh;
     margin-top: 2vh;
-    color: white;
-    
-    
+    color: white;  
 }
