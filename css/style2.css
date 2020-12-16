@@ -11,6 +11,8 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 
 }
 
