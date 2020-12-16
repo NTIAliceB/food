@@ -30,7 +30,7 @@ section#header {
     justify-content: center;
     flex-direction: row;
     width: 100vw;
-    height: 20vh;
+    height: 14vw;
 
     
   }
@@ -53,7 +53,7 @@ section#header {
 
 
 .loggo >img{
-    height: 15vh;
+    height: 10vw;
     margin: 30px;
    
 }
@@ -76,9 +76,9 @@ a{
 .innerDiv {
     background-color: rgb(231, 220, 203);
     width: 90vw;
-    height: 10vh;
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    height: 7vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,15 +115,13 @@ a{
 footer {
     background-color: chocolate;
     grid-area: fo;
-    height: 20vh;
+    height: 10vw;
 }
 
 .footer1 {
     background-color: rgb(241, 120, 34);
-    margin-bottom: 2vh;
-    margin-left: 2vh;
-    margin-top: 2vh;
-    padding-top: 1vh;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;

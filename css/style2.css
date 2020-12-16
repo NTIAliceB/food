@@ -26,7 +26,7 @@ section#header {
     justify-content: center;
     flex-direction: row;
     width: 100vw;
-    height: 20vh;
+    height: 14vw;
 
     
   }
@@ -49,7 +49,7 @@ section#header {
 
 
 .loggo >img{
-    height: 15vh;
+    height: 10vw;
     margin: 30px;
    
 }
@@ -60,8 +60,8 @@ section#header {
     'id1 id1 .'
     'id1 id1 .'
     'fo fo fo';
-    margin-top: 30vh;
-    height: 100vh;
+    margin-top: 30vw;
+    height: 100vw;
     width: 100vw;
   }
 
@@ -78,7 +78,7 @@ a{
 footer {
     background-color: chocolate;
     grid-area: fo;
-    height: 20vh;
+    height: 10vw;
 }
 
 section#innerdiv {
@@ -93,9 +93,9 @@ section#innerdiv {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 100px;
+    padding: 150px;
     margin: 10px;
-    margin-bottom: 10vh;
+    margin-bottom: 10vw;
     border-color: coral;
     border-width: thick;
     border-style: solid;
@@ -106,9 +106,8 @@ section#innerdiv {
 
 .footer1 {
     background-color: rgb(241, 120, 34);
-    margin-bottom: 2vh;
-    margin-left: 2vh;
-    margin-top: 2vh;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;

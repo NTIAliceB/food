@@ -14,20 +14,12 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
-
-}
-
-.gridWrapper {
+    padding: 0;
     width: 100vw;
 
-   /* display:grid;
-    /*grid-template-areas:
-    "he he he"
-    ;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-gap: 1px;*/
+
 }
+
 
 section#header {
     background-image: linear-gradient(to right,black, brown);
@@ -36,8 +28,7 @@ section#header {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 100vw;
-    height: 20vh;
+    height: 14vw;
 
     
   }
@@ -60,7 +51,7 @@ section#header {
 
 
 .loggo >img{
-    height: 15vh;
+    height: 10vw;
     margin: 30px;
    
 }
@@ -73,15 +64,14 @@ section#header {
     'id5 id6 .'
     'fo fo fo';
     background-color:white ;
-    margin-top: 75vh;
     width: 100vw;
+    margin: 38vw 0 0 0;
   }
 
 .aside {
     background-color: burlywood;
     grid-area: as;
     font-size: 50px;
-    margin-left: 200px;
     margin-top: 10px;
 }
 
@@ -105,10 +95,10 @@ ul{
 
 .innerDiv {
     background-color: rgb(231, 220, 203);
-    width: 50vh;
-    height: 50vh;
-    margin-bottom: 2vh;
-    margin-left: 2vh;
+    width: 30vw;
+    height: 30vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
     margin-top: 2vh;
     display: flex;
     align-items: center;
@@ -145,7 +135,7 @@ ul{
 footer {
     background-color: chocolate;
     grid-area: fo;
-    height: 40vh;
+    height: 22vw;
     display: flex;
     align-items: stretch;
    
